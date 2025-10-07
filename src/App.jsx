@@ -41,6 +41,16 @@ function App() {
                       <div className="post-message">"Here, have a Pepe Coin."</div>
                     </div>
                   </div>
+                  <div className="original-screenshot">
+                    <img 
+                      src="/pepecoin.jpg" 
+                      alt="Original 4chan PepeCoin Post Screenshot" 
+                      className="screenshot-image"
+                    />
+                    <div className="screenshot-caption">
+                      The original post that started it all - April 1st, 2015
+                    </div>
+                  </div>
                 </div>
                 <div className="provenance-info">
                   <div className="provenance-item">
@@ -56,26 +66,35 @@ function App() {
                     <span className="provenance-value">LEGENDARY</span>
                   </div>
                 </div>
-                <div className="hero-actions">
-                  <a 
-                    href="https://jup.ag/tokens/BCmpLG9wsbTCy5DxBM92SFHSSeLoXQxqgm9papiipump"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-primary"
-                  >
-                    <span className="btn-icon">⚡</span>
-                    <span className="btn-text">Trade on Jupiter</span>
-                  </a>
-                  <a 
-                    href="https://archive.4plebs.org/s4s/thread/3218534/#3219125"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-outline"
-                  >
-                    <span className="btn-icon">📜</span>
-                    <span className="btn-text">View Original Thread</span>
-                  </a>
-                </div>
+              <div className="hero-actions">
+                <a 
+                  href="https://jup.ag/tokens/BCmpLG9wsbTCy5DxBM92SFHSSeLoXQxqgm9papiipump"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  <span className="btn-icon">⚡</span>
+                  <span className="btn-text">Trade on Jupiter</span>
+                </a>
+                <a 
+                  href="https://x.com/firstverpepe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-twitter"
+                >
+                  <span className="btn-icon">𝕏</span>
+                  <span className="btn-text">Follow on X</span>
+                </a>
+                <a 
+                  href="https://archive.4plebs.org/s4s/thread/3218534/#3219125"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline"
+                >
+                  <span className="btn-icon">📜</span>
+                  <span className="btn-text">View Original Thread</span>
+                </a>
+              </div>
               </div>
             </div>
           </div>

@@ -205,6 +205,33 @@
   font-size: 1.1rem;
 }
 
+.original-screenshot {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.screenshot-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid rgba(50, 205, 50, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.screenshot-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.screenshot-caption {
+  margin-top: 1rem;
+  color: #aaaaaa;
+  font-style: italic;
+  font-size: 0.9rem;
+  font-family: 'Courier New', monospace;
+}
+
 .provenance-info {
   display: flex;
   gap: 3rem;
@@ -330,6 +357,42 @@
   color: white;
   transform: translateY(-4px);
   box-shadow: 0 15px 30px rgba(50, 205, 50, 0.4);
+}
+
+.btn-twitter {
+  background: linear-gradient(45deg, #1da1f2, #0d8bd9);
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 1.5rem 3rem;
+  box-shadow: 0 8px 25px rgba(29, 161, 242, 0.3);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.btn-twitter::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.btn-twitter:hover::before {
+  left: 100%;
+}
+
+.btn-twitter:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(29, 161, 242, 0.5);
+  background: linear-gradient(45deg, #0d8bd9, #1da1f2);
 }
 
 .btn-icon {
