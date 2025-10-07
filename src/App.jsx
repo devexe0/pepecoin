@@ -13,6 +13,26 @@ function App() {
           </div>
           <div className="container">
             <div className="hero-content">
+              <div className="hero-screenshot-container">
+                <a 
+                  href="https://archive.4plebs.org/s4s/thread/3218534/#3219125"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hero-screenshot-link"
+                >
+                  <img 
+                    src="/pepecoin.jpg" 
+                    alt="Original 4chan PepeCoin Post Screenshot - Click to view original thread" 
+                    className="hero-screenshot-image"
+                  />
+                  <div className="screenshot-overlay">
+                    <div className="screenshot-text">
+                      <span className="screenshot-title">THE ORIGINAL POST</span>
+                      <span className="screenshot-subtitle">Click to view the legendary 4chan thread</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
               <div className="hero-badge">
                 <span className="badge-text">ORIGINAL • 2015 • LEGENDARY</span>
               </div>
@@ -41,16 +61,6 @@ function App() {
                       <div className="post-message">"Here, have a Pepe Coin."</div>
                     </div>
                   </div>
-                  <div className="original-screenshot">
-                    <img 
-                      src="/pepecoin.jpg" 
-                      alt="Original 4chan PepeCoin Post Screenshot" 
-                      className="screenshot-image"
-                    />
-                    <div className="screenshot-caption">
-                      The original post that started it all - April 1st, 2015
-                    </div>
-                  </div>
                 </div>
                 <div className="provenance-info">
                   <div className="provenance-item">
@@ -66,35 +76,35 @@ function App() {
                     <span className="provenance-value">LEGENDARY</span>
                   </div>
                 </div>
-              <div className="hero-actions">
-                <a 
-                  href="https://jup.ag/tokens/BCmpLG9wsbTCy5DxBM92SFHSSeLoXQxqgm9papiipump"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary"
-                >
-                  <span className="btn-icon">⚡</span>
-                  <span className="btn-text">Trade on Jupiter</span>
-                </a>
-                <a 
-                  href="https://x.com/firstverpepe"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-twitter"
-                >
-                  <span className="btn-icon">𝕏</span>
-                  <span className="btn-text">Follow on X</span>
-                </a>
-                <a 
-                  href="https://archive.4plebs.org/s4s/thread/3218534/#3219125"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-outline"
-                >
-                  <span className="btn-icon">📜</span>
-                  <span className="btn-text">View Original Thread</span>
-                </a>
-              </div>
+                <div className="hero-actions">
+                  <a 
+                    href="https://jup.ag/tokens/BCmpLG9wsbTCy5DxBM92SFHSSeLoXQxqgm9papiipump"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary"
+                  >
+                    <span className="btn-icon">⚡</span>
+                    <span className="btn-text">Trade on Jupiter</span>
+                  </a>
+                  <a 
+                    href="https://x.com/firstverpepe"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-twitter"
+                  >
+                    <span className="btn-icon">𝕏</span>
+                    <span className="btn-text">Follow on X</span>
+                  </a>
+                  <a 
+                    href="https://archive.4plebs.org/s4s/thread/3218534/#3219125"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline"
+                  >
+                    <span className="btn-icon">📜</span>
+                    <span className="btn-text">View Original Thread</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -201,48 +211,63 @@ function App() {
           </div>
         </section>
 
-        <section className="stats">
+        <section className="x-community-section">
           <div className="container">
-            <h3 className="section-title">PepeCoin on Solana</h3>
-            <div className="stats-grid">
-              <div className="stat-item">
-                <div className="stat-number">2015</div>
-                <div className="stat-label">Original Launch</div>
+            <div className="x-community-content">
+              <div className="x-community-header">
+                <div className="x-community-icon">
+                  <span className="x-symbol">𝕏</span>
+                </div>
+                <div className="x-community-text">
+                  <h2 className="x-community-title">Join the PepeCoin X Community</h2>
+                  <p className="x-community-subtitle">Connect with fellow PepeCoin enthusiasts and stay updated on the latest developments</p>
+                </div>
               </div>
-              <div className="stat-item">
-                <div className="stat-number">SOL</div>
-                <div className="stat-label">Solana Network</div>
+              <div className="x-community-features">
+                <div className="x-feature">
+                  <span className="x-feature-icon">💬</span>
+                  <span className="x-feature-text">Real-time discussions</span>
+                </div>
+                <div className="x-feature">
+                  <span className="x-feature-icon">📢</span>
+                  <span className="x-feature-text">Latest announcements</span>
+                </div>
+                <div className="x-feature">
+                  <span className="x-feature-icon">🤝</span>
+                  <span className="x-feature-text">Community support</span>
+                </div>
+                <div className="x-feature">
+                  <span className="x-feature-icon">🚀</span>
+                  <span className="x-feature-text">Exclusive updates</span>
+                </div>
               </div>
-              <div className="stat-item">
-                <div className="stat-number">1st</div>
-                <div className="stat-label">Pepe Coin</div>
+              <div className="x-community-actions">
+                <a 
+                  href="https://x.com/i/communities/1974970350908690627"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="x-community-btn"
+                >
+                  <span className="btn-icon">𝕏</span>
+                  <span className="btn-text">Join X Community</span>
+                  <span className="btn-arrow">→</span>
+                </a>
+                <div className="x-community-stats">
+                  <span className="stat-item">
+                    <span className="stat-number">Active</span>
+                    <span className="stat-label">Community</span>
+                  </span>
+                  <span className="stat-divider">•</span>
+                  <span className="stat-item">
+                    <span className="stat-number">24/7</span>
+                    <span className="stat-label">Updates</span>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="features">
-          <div className="container">
-            <h3 className="section-title">Why PepeCoin on Solana?</h3>
-            <div className="features-grid">
-              <div className="feature-card">
-                <PepeCoinLogo size={80} />
-                <h4>First of Its Kind</h4>
-                <p>The original Pepe memecoin, now powered by Solana's lightning-fast blockchain</p>
-              </div>
-              <div className="feature-card">
-                <PepeCoinLogo size={80} />
-                <h4>Phantom Wallet Ready</h4>
-                <p>Seamlessly trade and hold PepeCoin with the most popular Solana wallet</p>
-              </div>
-              <div className="feature-card">
-                <PepeCoinLogo size={80} />
-                <h4>Low Fees, High Speed</h4>
-                <p>Enjoy Solana's low transaction costs and instant confirmations</p>
-              </div>
-            </div>
-          </div>
-        </section>
 
       </main>
 
