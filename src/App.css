@@ -19,7 +19,7 @@
   align-items: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 30%, #16213e 70%, #0a0a0a 100%);
 }
 
 .hero-background {
@@ -372,18 +372,20 @@
 }
 
 .btn-primary {
-  background: linear-gradient(45deg, #32CD32, #4169E1);
+  background: linear-gradient(45deg, #32CD32, #00ff00, #32CD32);
+  background-size: 200% 200%;
   color: white;
-  font-weight: 600;
-  font-size: 1.1rem;
+  font-weight: 700;
+  font-size: 1.2rem;
   padding: 1.5rem 3rem;
-  box-shadow: 0 8px 25px rgba(50, 205, 50, 0.3);
+  box-shadow: 0 8px 25px rgba(50, 205, 50, 0.4);
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   gap: 0.8rem;
   transition: all 0.3s ease;
+  animation: gradient-shift 3s ease infinite;
 }
 
 .btn-primary::before {
@@ -660,7 +662,7 @@
 /* X Community Section */
 .x-community-section {
   padding: 8rem 0;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 30%, #0f3460 70%, #1a1a2e 100%);
   position: relative;
   overflow: hidden;
 }
@@ -792,7 +794,8 @@
   align-items: center;
   gap: 1rem;
   padding: 1.5rem 3rem;
-  background: linear-gradient(135deg, #1da1f2, #0d8bd9);
+  background: linear-gradient(135deg, #1da1f2, #0d8bd9, #1da1f2);
+  background-size: 200% 200%;
   color: white;
   text-decoration: none;
   border-radius: 50px;
@@ -802,6 +805,7 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  animation: gradient-shift 3s ease infinite;
 }
 
 .x-community-btn::before {

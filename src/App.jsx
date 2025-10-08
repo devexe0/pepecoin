@@ -34,22 +34,22 @@ function App() {
                 </a>
               </div>
               <div className="hero-badge">
-                <span className="badge-text">ORIGINAL • 2015 • LEGENDARY</span>
+                <span className="badge-text">🐸 ORIGINAL • 2015 • LEGENDARY 🐸</span>
               </div>
               <div className="hero-text">
                 <h1 className="hero-title">
-                  <span className="title-main">PepeCoin</span>
+                  <span className="title-main">🐸 PepeCoin 🐸</span>
                   <span className="title-accent">OG</span>
                 </h1>
-                <h2 className="hero-subtitle">The First Pepe Coin of All Time</h2>
+                <h2 className="hero-subtitle">The First Pepe Coin of All Time 🚀</h2>
                 <div className="hero-description">
                   <p className="description-main">
                     Born on <strong>April 1st, 2015</strong> in the depths of 4chan's /s4s/ board, 
-                    PepeCoin was the original memecoin that started it all.
+                    PepeCoin was the original memecoin that started it all. 🐸💎
                   </p>
                   <p className="description-details">
                     The authentic, community-driven token that predates the entire memecoin revolution. 
-                    Before Dogecoin, before Shiba Inu, before the memecoin craze - there was PepeCoin.
+                    Before Dogecoin, before Shiba Inu, before the memecoin craze - there was PepeCoin. 📈🚀
                   </p>
                   <div className="original-post">
                     <div className="post-header">
@@ -58,21 +58,21 @@ function App() {
                     </div>
                     <div className="post-content">
                       <div className="post-poster">Anonymous</div>
-                      <div className="post-message">"Here, have a Pepe Coin."</div>
+                      <div className="post-message">"Here, have a Pepe Coin." 🐸</div>
                     </div>
                   </div>
                 </div>
                 <div className="provenance-info">
                   <div className="provenance-item">
-                    <span className="provenance-label">ORIGIN</span>
+                    <span className="provenance-label">🌐 ORIGIN</span>
                     <span className="provenance-value">4chan /s4s/</span>
                   </div>
                   <div className="provenance-item">
-                    <span className="provenance-label">DATE</span>
+                    <span className="provenance-label">📅 DATE</span>
                     <span className="provenance-value">April 1, 2015</span>
                   </div>
                   <div className="provenance-item">
-                    <span className="provenance-label">STATUS</span>
+                    <span className="provenance-label">👑 STATUS</span>
                     <span className="provenance-value">LEGENDARY</span>
                   </div>
                 </div>
@@ -83,8 +83,8 @@ function App() {
                     rel="noopener noreferrer"
                     className="btn btn-primary"
                   >
-                    <span className="btn-icon">⚡</span>
-                    <span className="btn-text">Trade on Jupiter</span>
+                    <span className="btn-icon">🚀</span>
+                    <span className="btn-text">APE IN NOW</span>
                   </a>
                   <a 
                     href="https://x.com/firstverpepe"
@@ -92,8 +92,8 @@ function App() {
                     rel="noopener noreferrer"
                     className="btn btn-twitter"
                   >
-                    <span className="btn-icon">𝕏</span>
-                    <span className="btn-text">Follow on X</span>
+                    <span className="btn-icon">🐸</span>
+                    <span className="btn-text">JOIN CULT</span>
                   </a>
                   <a 
                     href="https://archive.4plebs.org/s4s/thread/3218534/#3219125"
@@ -102,7 +102,7 @@ function App() {
                     className="btn btn-outline"
                   >
                     <span className="btn-icon">📜</span>
-                    <span className="btn-text">View Original Thread</span>
+                    <span className="btn-text">VIEW HISTORY</span>
                   </a>
                 </div>
               </div>
@@ -117,7 +117,7 @@ function App() {
                 <PepeCoinLogo size={120} />
               </div>
               <div className="ca-info">
-                <h3 className="ca-title">Contract Address</h3>
+                <h3 className="ca-title">🐸 Contract Address 💎</h3>
                 <div className="ca-address-container">
                   <div className="ca-address">
                     BCmpLG9wsbTCy5DxBM92SFHSSeLoXQxqgm9papiipump
@@ -134,7 +134,7 @@ function App() {
                   </button>
                 </div>
                 <p className="ca-description">
-                  Official PepeCoin contract address on Solana blockchain
+                  🚀 Official PepeCoin contract address on Solana blockchain 🚀
                 </p>
                 <div className="ca-links">
                   <a 
@@ -143,7 +143,7 @@ function App() {
                     rel="noopener noreferrer"
                     className="ca-link jupiter-link"
                   >
-                    🚀 Trade on Jupiter
+                    🚀 APE IN NOW
                   </a>
                   <a 
                     href={`https://solscan.io/token/BCmpLG9wsbTCy5DxBM92SFHSSeLoXQxqgm9papiipump`}
@@ -151,7 +151,7 @@ function App() {
                     rel="noopener noreferrer"
                     className="ca-link"
                   >
-                    🔍 View on Solscan
+                    📊 VIEW CHART
                   </a>
                   <a 
                     href={`https://dexscreener.com/solana/BCmpLG9wsbTCy5DxBM92SFHSSeLoXQxqgm9papiipump`}
@@ -159,7 +159,7 @@ function App() {
                     rel="noopener noreferrer"
                     className="ca-link"
                   >
-                    📊 View on DexScreener
+                    💎 DEX SCREENER
                   </a>
                 </div>
               </div>
@@ -169,19 +169,19 @@ function App() {
 
         <section className="history-section">
           <div className="container">
-            <h3 className="section-title">Historical Origins</h3>
+            <h3 className="section-title">🐸 THE LEGEND 🐸</h3>
             <div className="history-content">
               <div className="history-text">
-                <h4>The Birth of PepeCoin</h4>
+                <h4>📜 HISTORY IN THE MAKING 📜</h4>
                 <p>
                   On April 1st, 2015, an anonymous user on 4chan's /s4s/ board posted the very first Pepe Coin image 
                   with the message "Here, have a Pepe Coin." This simple post marked the beginning of what would 
-                  become the first memecoin in history.
+                  become the first memecoin in history. 🐸💎
                 </p>
                 <p>
                   The original post featured the iconic green and blue circular logo that has become synonymous 
                   with PepeCoin. This design, with its distinctive horizontal separator line, was created years 
-                  before the memecoin craze that would sweep the cryptocurrency world.
+                  before the memecoin craze that would sweep the cryptocurrency world. 📈🚀
                 </p>
                 <div className="history-link">
                   <a 
@@ -190,7 +190,7 @@ function App() {
                     rel="noopener noreferrer"
                     className="btn btn-outline"
                   >
-                    🔗 View Original Thread Archive
+                    🔗 VIEW ORIGINAL THREAD
                   </a>
                 </div>
               </div>
@@ -219,26 +219,26 @@ function App() {
                   <span className="x-symbol">𝕏</span>
                 </div>
                 <div className="x-community-text">
-                  <h2 className="x-community-title">Join the PepeCoin X Community</h2>
-                  <p className="x-community-subtitle">Connect with fellow PepeCoin enthusiasts and stay updated on the latest developments</p>
+                  <h2 className="x-community-title">🐸 JOIN THE CULT 🐸</h2>
+                  <p className="x-community-subtitle">Connect with fellow PepeCoin enthusiasts and stay updated on the latest developments 🚀💎</p>
                 </div>
               </div>
               <div className="x-community-features">
                 <div className="x-feature">
                   <span className="x-feature-icon">💬</span>
-                  <span className="x-feature-text">Real-time discussions</span>
+                  <span className="x-feature-text">Real-time discussions 🐸</span>
                 </div>
                 <div className="x-feature">
                   <span className="x-feature-icon">📢</span>
-                  <span className="x-feature-text">Latest announcements</span>
+                  <span className="x-feature-text">Latest announcements 🚀</span>
                 </div>
                 <div className="x-feature">
                   <span className="x-feature-icon">🤝</span>
-                  <span className="x-feature-text">Community support</span>
+                  <span className="x-feature-text">Community support 💎</span>
                 </div>
                 <div className="x-feature">
                   <span className="x-feature-icon">🚀</span>
-                  <span className="x-feature-text">Exclusive updates</span>
+                  <span className="x-feature-text">Exclusive updates 📈</span>
                 </div>
               </div>
               <div className="x-community-actions">
@@ -248,9 +248,9 @@ function App() {
                   rel="noopener noreferrer"
                   className="x-community-btn"
                 >
-                  <span className="btn-icon">𝕏</span>
-                  <span className="btn-text">Join X Community</span>
-                  <span className="btn-arrow">→</span>
+                  <span className="btn-icon">🐸</span>
+                  <span className="btn-text">SEND IT</span>
+                  <span className="btn-arrow">🚀</span>
                 </a>
                 <div className="x-community-stats">
                   <span className="stat-item">
