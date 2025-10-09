@@ -268,6 +268,25 @@ function App() {
           </div>
         </section>
 
+        <section className="banner-section">
+          <div className="container">
+            <div className="banner-content">
+              <div className="banner-image-container">
+                <img 
+                  src="/pepecoinbanner.png" 
+                  alt="PepeCoin Banner" 
+                  className="banner-image"
+                />
+              </div>
+              <div className="banner-text">
+                <h3 className="banner-title">🐸 THE LEGEND CONTINUES 🐸</h3>
+                <p className="banner-description">
+                  From the depths of 4chan to the blockchain - PepeCoin remains the original memecoin that started it all! 🚀💎
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
       </main>
 
